@@ -1,134 +1,83 @@
-🎨 Car Showroom Frontend
-Welcome to the Frontend of the Car Showroom project! This submodule powers the user interface, built with React, TypeScript, and Vite. 🚀
 
-🌟 Features
+Car Showroom Frontend 🎨✨
+Elevate your car browsing experience with an interactive frontend featuring 3D visualizations and a user-friendly design!
 
-📱 Responsive Design: Works seamlessly on all devices using TailwindCSS.
-🖼️ 3D Visualization: Powered by @react-three/fiber and @react-three/drei for stunning car model rendering.
-📊 Data Visualization: Interactive charts with chart.js and react-chartjs-2.
-⚡ Fast Development: Hot Module Replacement (HMR) with Vite for a smooth dev experience.
+🚀 Explore the Car Showroom Frontend!
+This is an interactive web application designed to enhance the online car browsing experience for car enthusiasts. Featuring 3D car visualizations and a sleek design, this project showcases a virtual showroom with engaging features. Check out the live demo below!  
+Quick Links
 
-
-📦 Installed Packages
-Here are the packages powering the Frontend (car-showroom-frontend@0.0.0):
+🌟 Live Demo (Coming Soon)
+📂 Explore the Code
+📧 Contact Me
 
 
+Table of Contents
 
-Category
-Packages
-
-
-
-Core Frameworks
-react@19.0.0, react-dom@19.0.0, react-router-dom@7.4.1
-
-
-3D Rendering
-@react-three/fiber@9.1.0, @react-three/drei@10.0.4, three@0.174.0
+Overview
+Getting Started
+Prerequisites
+Installation
+Usage
+Testing
 
 
-Styling
-tailwindcss@3.4.17, autoprefixer@10.4.21, postcss@8.5.3
+Technologies Used
+Project Structure
+Author
+License
+Acknowledgments
 
+Overview
+Car Showroom Frontend is a dynamic web application designed to elevate the online car browsing experience, featuring an engaging layout and interactive elements. The project focuses on delivering a visually appealing experience with 3D visualizations, making it easy for users to explore different car models. This project demonstrates skills in frontend development, including responsive design and animation techniques.
+Why Car Showroom Frontend?
+This project aims to provide a user-friendly interface that enhances car visibility and customer engagement. The core features include:
 
-Data & API
-axios@1.8.4, chart.js@4.4.8, react-chartjs-2@5.3.0
+🎮 Interactive Design: Engaging 3D car models that captivate users.
+📱 Responsive Layout: Ensures accessibility and a seamless experience across devices.
+🌟 Smooth 3D Transitions: Creates a visually appealing experience with dynamic model management.
+🎨 Cohesive Visual Aesthetics: Well-defined styles enhance readability and overall design consistency.
+✨ Enhanced User Interactions: Transitions and hover effects enrich user engagement and satisfaction.
 
+Getting Started
+Prerequisites
+To run this project locally, you’ll need:
 
-Animations
-framer-motion@12.6.2
+Programming Languages: HTML, CSS, JavaScript
+Web Browser: A modern web browser (e.g., Chrome, Firefox, Safari)
+Text Editor: Any code editor like VS Code, Sublime Text, or Notepad++
+Git: For cloning the repository (optional)
 
+Installation
+Set up the project on your local machine with these steps:
 
-Linting & Types
-eslint@9.22.0, @eslint/js@9.22.0, typescript@5.7.3, typescript-eslint@8.26.0, eslint-plugin-react-hooks@5.2.0, eslint-plugin-react-refresh@0.4.19, @types/react@19.0.10, @types/react-dom@19.0.4, globals@15.15.0
-
-
-Build Tools
-vite@6.2.1, @vitejs/plugin-react@4.3.4
-
-
-Validation
-validator@13.15.0
-
-
-
-🛠️ Setup Details
-This project uses Vite for a fast build process and React with TypeScript for type safety. Key features include:
-
-Hot Module Replacement (HMR): Instant updates during development.
-ESLint Rules: Ensures code quality with TypeScript-aware linting.
-
-Available Plugins
-
-@vitejs/plugin-react: Uses Babel for Fast Refresh.
-@vitejs/plugin-react-swc: Uses SWC for Fast Refresh.
-
-Expanding the ESLint Configuration
-For production, enable type-aware lint rules by updating your ESLint configuration:
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-
-Adding React-Specific Lint Rules
-You can enhance linting with React-specific rules by installing eslint-plugin-react-x and eslint-plugin-react-dom:
-
-Install the Packages:
-npm install eslint-plugin-react-x eslint-plugin-react-dom --save-dev
-
-
-Update ESLint Configuration:Add the following to your eslint.config.js:
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Clone the repository:git clone https://github.com/Kyubey-kub/web-carshowroom-Frontend.git
 
 
 
+Technologies Used
 
-🚀 Getting Started
+Frameworks: React, Vite
+Styling: TailwindCSS
+3D Rendering: Three.js
+Tools: Git, npm
 
-Clone the Repository:
-git clone https://github.com/Kyubey-kub/web-carshowroom-Frontend.git
-cd web-carshowroom-Frontend
+Project Structure
+web-carshowroom-Frontend/
+├── src/              # Source code
+├── public/           # Static assets
+├── README.md         # Documentation
+└── package.json      # Project dependencies
 
+Author
 
-Install Dependencies:
-npm install
+Somprasong - GitHub Profile
 
-
-Run the Project:
-npm run dev
-
-
-
-
-🤝 Contributing
-We welcome contributions! Please fork the repository, create a new branch, and submit a pull request. For major changes, open an issue first to discuss.
-
-📜 License
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgments
 
-🌟 Happy coding! If you have any questions, feel free to reach out via GitHub Issues.
+Inspired by virtual showroom concepts and 3D web technologies.
+Thanks to the open-source community for tools and libraries!
+
+
+Back to Top
